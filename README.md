@@ -1,3 +1,57 @@
+# Portfolio-Project-Website
+
+#### MEAN STACK. Final project of Master JavaScript at Málaga.
+
+## About this project...
+
+```
+The website is a portfolio project base for clients in Agency...
+```
+
+## Starting 🚀
+1.  Website layout: Page
+2.  Make different pages for different sections
+    - About me
+    - My Projects
+    - Let's do a project
+    - Contact
+3. In the section "Let's do a project" Make a form that saves new projects in the backend using the API REST.
+4. In the section "My Projects" Make a list of projects in the backend using the API REST.
+    - Page for each project
+    - Make a button to edit the project(functional)
+    - Make a button to delete the project(functional)
+### Built with...  🛠️
+
+#### HTML5, CSS3, TYPESCRIPT ANGULAR,
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- [Typescript](https://)
+- [Angular](https://angular.io/)
+
+### Real Time Database🛠️
+
+# DEMO IN NETLIFY 💥
+
+Note: This is a demo of the project in Netlify.
+## Autor ✒️
+
+_Learning_
+
+* **Juan Diego Gómez** - *Proyect MeanStack* - [juandieruiz](https://github.com/juandieruiz)
+
+## Thanks for comming 🎁
+
+* Search me in social media 📢
+* Invite me a coffe in [Coffe Time!](https://www.buymeacoffee.com/juandieruiz) . 
+
+
+
+---
+⌨️ con ❤️ por [Juandieruiz](https://github.com/Juandieruiz) 😊
+
+<hr>More documentation<hr>
+
 # AngularClientsPortfolios
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
