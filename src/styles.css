@@ -55,9 +55,11 @@ header{
 
 header ul{
     display: block;
-    width: 45%;
+    width: 50%;
     height: inherit;
     margin: 0px auto;
+    margin-top: -3px;
+
 }
 
 header ul li{
@@ -65,7 +67,6 @@ header ul li{
     margin: 0px auto;
     text-align: center;
     line-height: 88px;
-    margin-top: -3px;
 }
 
 header a{
@@ -98,4 +99,18 @@ header a:hover{
     background: transparent;
     color: black;
     transform:scale(1.50,1.50)
+}
+
+
+/* Contenedor Principal */
+
+#content{
+    min-height: 600px;
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 40px black;
+    background: rgba(255,255,255,0.7);
+    padding-top: 120px;
+    border-left:2px solid #b7b7b7 ;
+    
 }
