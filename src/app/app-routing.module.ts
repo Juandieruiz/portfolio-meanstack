@@ -12,7 +12,7 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'sobre-nosotros',
+    path: 'sobre-mi',
     component: AboutComponent
   },
   {
