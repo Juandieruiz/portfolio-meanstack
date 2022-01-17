@@ -1,1 +1,41 @@
-<p>create works!</p>
+<div class="container">
+    <h2>{{title}}</h2>
+    <!-- Especificamos nombre form Angular y Metodo onSubmit para recibir el formulario -->
+    <form #projectForm="ngForm" (ngSubmit)="onSubmit(projectForm)">
+        <p>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" 
+            #name="ngModel" [(ngModel)]="project.name" required>
+        </p>
+        <p>
+            <label for="description">Descripcion</label>
+            <textarea id="description" name="description" 
+            #description="ngModel" [(ngModel)]="project.description" required></textarea>
+        </p>
+        <p>
+            <label for="category">Categoría</label>
+            <input type="text" id="category" name="category"
+            #category="ngModel" [(ngModel)]="project.category" required>
+        </p>
+        <p>
+            <label for="technologies">Lenguaje utilizado</label>
+            <input type="text" id="technologies" name="technologies"
+            #technologies="ngModel" [(ngModel)]="project.technologies" required>
+        </p>
+        <p>
+            <label for="years">Año de Lanzamiento</label>
+            <input type="number" id="year" name="name" 
+            #year="ngModel" [(ngModel)]="project.year" required>
+        </p>
+
+        <p>
+            <label for="image">Imagen del Proyecto</label>
+            <input type="file" name="image" placeholder="Subir Imagen">
+        </p>
+
+        <input type="submit" value="Enviar"> 
+        
+
+    </form>
+
+</div>
