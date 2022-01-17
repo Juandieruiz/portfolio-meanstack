@@ -55,7 +55,7 @@ header{
 
 header ul{
     display: block;
-    width: 50%;
+    width: 45%;
     height: inherit;
     margin: 0px auto;
     margin-top: -3px;
@@ -113,4 +113,13 @@ header a:hover{
     padding-top: 120px;
     border-left:2px solid #b7b7b7 ;
     
+}
+
+/* Pie de Página */
+
+#footer{
+    width: 75%;
+    margin: 0px auto;
+    padding-top: 15px;
+    color: rgba(0,0,0,0.5);
 }
