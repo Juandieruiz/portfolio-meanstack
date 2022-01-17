@@ -8,7 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CreateComponent } from './components/create/create.component';
 import { ErrorComponent } from './components/error/error.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
