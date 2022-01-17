@@ -79,7 +79,8 @@ header a{
     transition: all 300ms;
 }
 
-header a:hover{
+header a:hover,
+.actived{
     background: rgba(53, 103, 164, 0.8);
     color: white;
 }
