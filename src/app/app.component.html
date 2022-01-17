@@ -1,3 +1,18 @@
-<h1>{{title}}</h1>
-<app-navbar></app-navbar>
-<router-outlet></router-outlet>
+<header>
+        <ul>
+            <li><a [routerLink]="['/sobre-nosotros']">Sobre Nosotros</a></li>
+            <li><a [routerLink]="['/proyectos']">Proyectos</a></li>
+            <li id="logo"><a href="#">RN</a></li>
+            <li><a [routerLink]="['/crear-proyecto']">Crear Proyecto</a></li>
+            <li><a [routerLink]="['/contacto']">Contacto</a></li>
+        </ul>
+        
+</header>
+
+<section id="content">
+    <router-outlet></router-outlet>
+</section>
+
+<section id="footer">
+    Master JavaScript
+</section>

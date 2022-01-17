@@ -8,7 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { CreateComponent } from './components/create/create.component';
 import { ErrorComponent } from './components/error/error.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ContactComponent,
     CreateComponent,
     ErrorComponent,
-    NavbarComponent,
+    
   ],
   imports: [
     BrowserModule,
