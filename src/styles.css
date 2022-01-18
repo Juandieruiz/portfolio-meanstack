@@ -11,6 +11,7 @@
 
 
 
+
 /* Generales */
 *{
     margin: 0;
@@ -42,53 +43,52 @@ body{
 
 
 /* Barra de Navegación */
+
 header{
-    display: block;
-    width: 100%;
-    height: 90px;
-    background: rgba(53, 103, 164, 0.8);
-    position: fixed;
-    text-transform: uppercase;
-    
+	display: block;
+	width: 100%;
+	height: 75px;
+	background: rgba(53, 103, 164, 0.8);
+	position: fixed;
+	text-transform: uppercase;
 }
 
-
 header ul{
-    display: block;
-    width: 45%;
-    height: inherit;
-    margin: 0px auto;
-    margin-top: -3px;
-
+	display: block;
+	width: 50%;
+	height: inherit;
+	margin: 0px auto;
+	margin-top: -3px;
 }
 
 header ul li{
-    display: inline-block;
-    margin: 0px auto;
-    text-align: center;
-    line-height: 88px;
+	display: inline-block;
+	margin: 0px auto;
+	text-align: center;
+	line-height: 73px;
 }
 
 header a{
-    display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: inherit;
-    text-decoration: none;
-    color: white;
-    transition: all 300ms;
-}
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: inherit;
+	text-decoration: none;
+	color:white;
+	transition: all 300ms;
+    
+}	
 
 header a:hover,
 .actived{
-    background: rgba(53, 103, 164, 0.8);
-    color: white;
+	background: rgba(0,0,0,0.8);
 }
+
 
 /* Logotipo */
 
 #logo{
-    font-family: "Roboto", cursive;
+    font-family: 'Roboto', cursive;
     font-size: 30px;
 }
 
