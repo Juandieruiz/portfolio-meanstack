@@ -14,7 +14,7 @@
 }
 
 form{
-    width: 50%;
+    width: 80%;
 }
 
 form label{
@@ -28,7 +28,7 @@ form input[type="text"],
 form input[type="number"],
 form input[type="email"],
 form textarea{
-    width: 80%;
+    width: 40%;
     padding: 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -51,4 +51,17 @@ form input[type="submit"]:hover{
     
     background: rgba(53, 103,164, 0.8);
     border: 1px solid rgba(13, 67, 133, 1);
+}
+
+form input[disabled]{
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.form_error{
+    font-size: 13px;
+    padding: 3px;
+    background-color: red;
+    color: white;
+    margin-left: 10px;
 }
