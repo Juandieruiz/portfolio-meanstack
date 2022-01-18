@@ -65,3 +65,23 @@ form input[disabled]{
     color: white;
     margin-left: 10px;
 }
+
+.message{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.success{
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+
+.message a{
+    color: #337ab7;
+}
+
+.failed{
+    background-color: #f2dede;
+    color: #a94442;
+}
