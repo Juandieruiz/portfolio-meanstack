@@ -33,7 +33,7 @@ export class ProjectsComponent implements OnInit {
         console.log(<any>error);
       }
   );
-
   }
 
+  
 }

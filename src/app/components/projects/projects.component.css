@@ -1,3 +1,12 @@
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 h2{
     Text-align: center;
@@ -6,19 +15,15 @@ h2{
 
 .project{
     list-style: none;
-    display: block;
-    float: left;
-    width: 28%;
-    text-align: center;
-    margin: 20px 20px 30px 20px;
-
-
+    display: inline-block;
+    width: 25%;
+    margin: 25px 0 25px 50px;
 }
 
 .project .image{
     width: 100%;
-    height: 150px;
-    overflow: hidden; ;
+    height: 100%;
+    overflow: hidden; 
     
 }
 
@@ -26,5 +31,9 @@ h2{
     width: 100%;
 }
 
+.project a{
+    text-decoration: none;
+    color: black;
+}
 
 
