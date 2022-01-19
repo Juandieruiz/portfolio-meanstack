@@ -4,6 +4,7 @@ import { ProjectService } from 'src/app/services/project.service';
 import { HttpClientModule } from '@angular/common/http';
 import { UploadService } from 'src/app/services/upload.service';
 import { Global } from 'src/app/services/global';
+import { of } from 'rxjs';
 @Component({
   selector: 'app-create',
   templateUrl: './create.component.html',
@@ -11,7 +12,9 @@ import { Global } from 'src/app/services/global';
   // Cargamos Servicio en el decorador
   providers: [ProjectService,UploadService]
 })
+
 export class CreateComponent implements OnInit {
+
   public title:string;
   public project: Project;
   public status!: string;
@@ -39,14 +42,19 @@ export class CreateComponent implements OnInit {
           .then((result:any) => {
 
             this.save_project = result.project;
+
           this.status = 'success';
-          form.reset()     
-          })
+          form.reset();   
+          });
 
         }else{
           this.status = 'failed';
         }
-      });
+      },
+      error => {
+        console.log(<any>error);
+      } 
+      );
   }
 
 
