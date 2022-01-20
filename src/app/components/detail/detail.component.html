@@ -9,11 +9,17 @@
         <p>{{project.category}}</p>
         <p>{{project.technologies}}</p>
         <p>{{project.year}}</p>
-
-        <p>
+            <div class="botones">
+        <p *ngIf="confirm == false">
             <a [routerLink]="['/editar-proyecto', project._id]" class="button-edit">Editar</a>
-            <a (click)="deleteProject(project._id)" class="button-delete">Borrar</a>
-
+            <a (click)="setConfirm(true)" class="button-delete">Borrar</a>
         </p>
+        <br>
+        <p *ngIf="confirm == true">
+            <span class="confirm">¿Estas seguro de eliminar este proyecto?</span><br>
+            <a (click)="setConfirm(false)" class="button-edit">No, Cancelar</a>
+            <a (click)="deleteProject(project._id)" class="button-delete">Si, Eliminar</a>
+        </p>
+            </div>
     </div>
 </div>
