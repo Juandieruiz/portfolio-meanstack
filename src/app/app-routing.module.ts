@@ -6,6 +6,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ErrorComponent } from './components/error/error.component';
 import { DetailComponent } from './components/detail/detail.component';
+import { EditComponent } from './components/edit/edit.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'contacto',
     component: ContactComponent
+  },
+  {
+    path: 'editar-proyecto/:id',
+    component: EditComponent
   },
   {
     path: '**',

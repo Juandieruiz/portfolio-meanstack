@@ -20,6 +20,7 @@ export class CreateComponent implements OnInit {
   public status!: string;
   public filesToUpload!: Array<File>;
   public save_project: any;
+  public url: string;
 
   constructor(
     private _projectService: ProjectService,
@@ -27,6 +28,7 @@ export class CreateComponent implements OnInit {
   ) {
       this.title = 'Crear Proyecto';
       this.project = new Project('','','','','',2022,'');
+      this.url = Global.url;
     }
 
   ngOnInit(): void {
@@ -50,10 +52,7 @@ export class CreateComponent implements OnInit {
         }else{
           this.status = 'failed';
         }
-      },
-      error => {
-        console.log(<any>error);
-      } 
+      }
       );
   }
 

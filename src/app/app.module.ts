@@ -11,6 +11,7 @@ import { ErrorComponent } from './components/error/error.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { DetailComponent } from './components/detail/detail.component';
+import { EditComponent } from './components/edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DetailComponent } from './components/detail/detail.component';
     CreateComponent,
     ErrorComponent,
     DetailComponent,
+    EditComponent,
     
   ],
   imports: [
