@@ -1,0 +1,20 @@
+.container{
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container .image{
+    float: left;
+    width: 47%;
+}
+
+.container .image img{
+    width: 100%;
+    
+}
+
+.container .data{
+    float: left;
+    width: 48%;
+    margin-left: 30px;
+}

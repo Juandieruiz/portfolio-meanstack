@@ -1,1 +1,13 @@
-<h1>{{project.name}}</h1>
+<div class="container">
+
+    <div class="image">
+        <img src="{{url+'get-image/'+project.image}}" alt="Imagen de Proyecto" *ngIf="project.image">
+    </div>
+    <div class="data">
+        <h1>{{project.name}}</h1>
+        <h3>{{project.description}}</h3>
+        <p>{{project.category}}</p>
+        <p>{{project.technologies}}</p>
+        <p>{{project.year}}</p>
+    </div>
+</div>
