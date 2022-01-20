@@ -18,3 +18,32 @@
     width: 48%;
     margin-left: 30px;
 }
+
+.button-edit,
+.button-delete{
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+
+.button-edit,
+.button-delete{
+    display: block;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 100px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-edit{
+    background: rgba(53, 103,164, 1);
+}
+
+.button-delete{
+    background: rgb(255, 0, 0);
+}
