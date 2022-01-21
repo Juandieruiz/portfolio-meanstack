@@ -14,6 +14,7 @@ import { DetailComponent } from './components/detail/detail.component';
 import { EditComponent } from './components/edit/edit.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { ResaltadoDirective } from './directivas/resaltado.directive';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     DetailComponent,
     EditComponent,
     SliderComponent,
+    ResaltadoDirective,
     
   ],
   imports: [
